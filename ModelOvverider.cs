@@ -7,7 +7,7 @@ namespace Afalex.Extensions.Tests
 {
     public static class ModelOvverider
     {
-        public static T Ovveride<T>(T forOvveride, in T newValuesObject)
+        public static T Ovveride<T>(this T forOvveride, in T newValuesObject)
         {
             ExtractPropertyWithNotNullValues(newValuesObject).ForAll(v => v.Key.SetValue(forOvveride, v.Value));
             return forOvveride;
