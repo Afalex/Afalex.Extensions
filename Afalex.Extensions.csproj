@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Afalex.Extensions.Tests\**" />
+    <EmbeddedResource Remove="Afalex.Extensions.Tests\**" />
+    <None Remove="Afalex.Extensions.Tests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="4.7.2" />
   </ItemGroup>
 

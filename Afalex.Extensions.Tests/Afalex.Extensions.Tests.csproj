@@ -14,7 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Afalex.Extensions\Afalex.Extensions.csproj" />
+    <ProjectReference Include="..\..\Afalex.Examples\Afalex.Examples.csproj" />
+    <ProjectReference Include="..\Afalex.Extensions.csproj" />
   </ItemGroup>
 
 </Project>
