@@ -20,7 +20,8 @@ namespace Afalex.Extensions.Tests
             expected.Name = myBabyName;
 
             //Act
-            original.Ovveride(newValues); //  ExampleModel result = ModelOvverider.Ovveride(original, newValues);
+            original.Ovveride(newValues);
+
             //Assert
             Assert.AreEqual(expected, original);
         }
